@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+        .one{
+box-shadow: 2px 2px 2px 5px rgb(169, 166, 166);
+width: 25%;
+
+border-radius: 10px;
+margin-left: 35%;
+margin-top: 10%;
+        }
+        
+        .two{
+            background-color: red;
+            height:150px;
+            padding: 20px;
+        }
+        .three{
+            background-color:blue;
+        height: 400px;
+        padding: 20px;
+        }
+        .r1{
+           font-size: 50px; 
+    
+        
+        }
+        .r2{
+            font-size: 50px; 
+        }
+        
+        .r3{
+            font-size: 50px; 
+}
+.r4{
+    font-size: 50px; 
+}
+.a{
+    font-size: 50px;
+    padding: 10px;
+
+}
+button{
+    font-size: 55px;
+    width:60px;
+    border-radius: 50%;
+}
+.dd{
+    
+
+    font-size: 45px;
+}
+        </style>
+    </head>
+    <body>
+       
+        <div class="one">
+            <div class="two">
+                <p id="d1" class="dd"></p>
+              
+            </div>
+            <div class="three">
+                <div class="a">
+            <button onclick="daf()">7</button>
+            <button onclick="daf2()">8</button>
+            <button onclick="daf3()">9</button>
+            <button onclick="daf4()">+</button>
+            </div>
+            <div class="a">
+                <button onclick="daf5()">4</button>
+                <button onclick="daf6()">5</button>
+                <button onclick="daf7()">6</button>
+                <button onclick="daf8()">-</button>
+                </div>
+                <div class="a">
+                    <button onclick="daf9()">1</button>
+                    <button onclick="daf10()">2</button>
+                    <button onclick="daf11()">3</button>
+                    <button onclick="daf12()">*</button>
+                    </div>
+                    <div class="a">
+                        <button onclick="daf13()">0</button>
+                        <button onclick="daf14()">.</button>
+                        <button onclick="daf15()">/</button>
+                        <button onclick="daf16()">=</button>
+                        </div>
+                </div>
+                <button onclick="daf17()">c</button>
+            </div>
+           
+        </div>
+        
+        <script>
+            x='';
+           function daf(){
+     x=x+"7";
+            document.getElementById("d1").innerHTML=x;
+           }
+           function daf2(){
+            x=x+"8";
+     document.getElementById("d1").innerHTML=x;
+    }
+    function daf3(){
+     x=x+"9";
+     document.getElementById("d1").innerHTML=x;
+    }
+    function daf4(){
+     x=x+"+";
+     document.getElementById("d1").innerHTML=x;
+    }
+    function daf5(){
+     x=x+"4";
+     document.getElementById("d1").innerHTML=x;
+    }
+    function daf6(){
+     x=x+"5";
+     document.getElementById("d1").innerHTML=x;
+    }
+    function daf7(){
+     x=x+"6";
+     document.getElementById("d1").innerHTML=x;
+    }
+    function daf8(){
+     x=x+"-";
+     document.getElementById("d1").innerHTML=x;
+    }
+    function daf9(){
+     x=x+"1";
+     document.getElementById("d1").innerHTML=x;
+    }
+    function daf10(){
+     x=x+"2";
+     document.getElementById("d1").innerHTML=x;
+    }
+    function daf11(){
+     x=x+"3";
+     document.getElementById("d1").innerHTML=x;
+    }
+    function daf12(){
+     x=x+"*";
+     document.getElementById("d1").innerHTML=x;
+    }
+    function daf13(){
+        x=x+"0";
+     document.getElementById("d1").innerHTML=x;
+    }
+    function daf14(){
+        x=x+".";
+     document.getElementById("d1").innerHTML=x;
+    }
+    function daf15(){
+        x=x+"/";
+     document.getElementById("d1").innerHTML=x;
+    }
+    function daf16(){
+        x=eval(x);
+     document.getElementById("d1").innerHTML=x;
+    }
+    function daf17(){
+        x='';
+     document.getElementById("d1").innerHTML=x;
+    }      </script>
+
+        </body>
+    </html>
